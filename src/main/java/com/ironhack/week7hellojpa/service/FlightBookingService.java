@@ -3,13 +3,8 @@ package com.ironhack.week7hellojpa.service;
 import com.ironhack.week7hellojpa.exception.CustomerNotFoundException;
 import com.ironhack.week7hellojpa.exception.FlightBookingNotFoundException;
 import com.ironhack.week7hellojpa.exception.FlightNotFoundException;
-import com.ironhack.week7hellojpa.model.Customer;
-import com.ironhack.week7hellojpa.model.Flight;
 import com.ironhack.week7hellojpa.model.FlightBooking;
-import com.ironhack.week7hellojpa.repository.CustomerRepository;
 import com.ironhack.week7hellojpa.repository.FlightBookingRepository;
-import com.ironhack.week7hellojpa.repository.FlightRepository;
-import org.springframework.data.repository.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

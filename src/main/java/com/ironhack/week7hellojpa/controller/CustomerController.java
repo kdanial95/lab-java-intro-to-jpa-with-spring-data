@@ -5,11 +5,9 @@ import com.ironhack.week7hellojpa.exception.CustomerNotFoundException;
 import com.ironhack.week7hellojpa.model.Customer;
 import com.ironhack.week7hellojpa.service.CustomerService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 @RestController

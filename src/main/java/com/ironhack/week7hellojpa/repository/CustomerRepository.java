@@ -18,7 +18,4 @@ public interface CustomerRepository extends JpaRepository<Customer, UUID> {
 
     @Query(value = "SELECT * FROM customers a WHERE a.total_miles_flown > 100000" , nativeQuery = true)
     List<Customer> getCustomersOver100kMiles();
-
-    @Override
-    Optional<Customer> findById(UUID id);
 }

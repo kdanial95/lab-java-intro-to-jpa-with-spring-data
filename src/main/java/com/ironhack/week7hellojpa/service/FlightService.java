@@ -1,8 +1,6 @@
 package com.ironhack.week7hellojpa.service;
 
-import com.ironhack.week7hellojpa.exception.CustomerNotFoundException;
 import com.ironhack.week7hellojpa.exception.FlightNotFoundException;
-import com.ironhack.week7hellojpa.model.Customer;
 import com.ironhack.week7hellojpa.model.Flight;
 import com.ironhack.week7hellojpa.repository.FlightRepository;
 import org.springframework.stereotype.Service;

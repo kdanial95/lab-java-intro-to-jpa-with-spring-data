@@ -4,11 +4,9 @@ import com.ironhack.week7hellojpa.enums.CustomerStatus;
 import com.ironhack.week7hellojpa.exception.CustomerNotFoundException;
 import com.ironhack.week7hellojpa.model.Customer;
 import com.ironhack.week7hellojpa.repository.CustomerRepository;
-import jakarta.el.MethodNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 @Service
